@@ -6,7 +6,7 @@
     width:100%;
     height:calc(100vh);
 }
-.titleBody{
+.sectionBody{
     display:table-cell;
     vertical-align:middle;
 }
@@ -19,13 +19,15 @@
     margin-left: auto;
     font-size:9em;
 }
-.pageTitle{
-
-}
 .pageDescription{
     font-size: .25em;
 }
-
+.aboutSection{
+    display:table;
+    width:100%;
+    height:calc(100vh);
+    background-color: #C5CAE9;
+}
 ul{
     list-style-type: none;
 }

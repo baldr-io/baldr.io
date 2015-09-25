@@ -27,7 +27,7 @@
                         <a href="#title">Home</a>
                     </div>
                     <div id="link2" class="page-link">
-                        <a href="#">Page 2</a>
+                        <a href="#about">About</a>
                     </div>
                     <div id="link2" class="page-link">
                         <a href="#">Page 3</a>
@@ -44,13 +44,27 @@
             
         </section>
         <section id="title" class="titleSection">
-            <div class="titleBody">
+            <div class="sectionBody">
                 <div class="container">
                     <div id="title" class="pageTitle">
                         {{pageInfo.pageTitle}}
                     </div>
                     <div id="pageDescription" class="pageDescription">
                         {{pageInfo.pageDescription}}
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <hr style="border:3px solid #B6B6B6; margin:0;"/>
+        <section id="about" class="aboutSection">
+            <div class="sectionBody">
+                <div class="container">
+                    <div id="title" class="pageTitle">
+                        {{"About"}}
+                    </div>
+                    <div id="pageDescription" class="pageDescription">
+                        {{"Description"}}
                     </div>
 
                 </div>
