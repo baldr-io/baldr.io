@@ -1,15 +1,9 @@
-.body{
-    background-color: #607D8B;
-}
-.titleSection{
-    display:table;
-    width:100%;
-    height:calc(100vh);
-}
+/*used to define and center the bodies of the sections*/
 .sectionBody{
     display:table-cell;
     vertical-align:middle;
 }
+/*contains the elements of the body*/
 .container {
     text-align:center;
     color:white;
@@ -19,22 +13,79 @@
     margin-left: auto;
     font-size:9em;
 }
-.pageDescription{
+.description{
     font-size: .25em;
 }
-.aboutSection{
+
+/*site title section*/
+.titleSection{
+    display:table;
+    width:100%;
+    padding-top: 50px;
+    height:calc(100vh);
+    background-color: #607D8B;
+}
+
+/*Social styling*/
+.socialSection{
     display:table;
     width:100%;
     height:calc(100vh);
-    background-color: #C5CAE9;
-}
-ul{
-    list-style-type: none;
-}
-.link-active{
     background-color: #FF5722;
-    color:white;
+}
+.socialTitle{
+    color:#455A64;
+}
+.socialDescription{
+    color:#455A64;
+}
+
+/*Plex styling*/
+.plexSection{
+    display:table;
+    width:100%;
+    height:calc(100vh);
+    background-color: #CFD8DC;
+    color:#727272;
+}
+.plexTitle{
+    color:#727272;
+}
+.plexDescription{
+    color:#727272;
+}
+
+.buttonLink{
     font-size: .25em;
+    background-color: black;
+    border-radius: 5px;
+    width:200px;
+    margin:auto;
+    padding:5px;
+}
+
+.linkActive{
+    display:table-cell;
+    border-radius: 10px;
+    vertical-align: middle;
+    background-color: #FF5722;
+    height:100%;
+    padding:0px 10px 0px 10px;
+}
+.page-link{
+    display:table-cell;
+    vertical-align: middle;
+    padding:0px 10px 0px 10px;
+    height:100%;
+}
+
+.page-link:hover{
+    display:table-cell;
+    vertical-align: middle;
+    border-radius:10px;
+    padding:0px 10px 0px 10px;
+    height:100%;
+    background-color: #B6B6B6;
 }
 a{
     text-decoration: none;

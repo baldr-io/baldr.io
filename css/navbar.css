@@ -1,15 +1,18 @@
 .navSection{
+    position:fixed;
     background-color: #455A64;
     color:white;
     height:50px;
     width:100%;
+    top:0;
+    left:0;
 }
 
 .navBody{
     display:table;
-    padding:0px 15px 0px 15px;
+    padding:5px 15px 5px 15px;
     width:100%;
-    height:100%;
+    height:100% - 3px;
 }
 
 .logo{
@@ -26,17 +29,4 @@
     vertical-align:middle;
     font-size: 2em;
 }
-.active-link{
-    display:table-cell;
-    border-radius: 10px;
-    vertical-align: middle;
-    background-color: #FF5722;
-    height:100%;
-    padding:0px 10px 0px 10px;
-}
-.page-link{
-    display:table-cell;
-    vertical-align: middle;
-    padding:0px 10px 0px 10px;
-    height:100%;
-}
+
