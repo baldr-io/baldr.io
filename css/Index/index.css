@@ -1,0 +1,59 @@
+.body{
+    background-color: #607D8B;
+}
+.titleSection{
+    display:table;
+    width:100%;
+    height:calc(100vh);
+}
+.titleBody{
+    display:table-cell;
+    vertical-align:middle;
+}
+.container {
+    text-align:center;
+    color:white;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size:9em;
+}
+.pageTitle{
+
+}
+.pageDescription{
+    font-size: .25em;
+}
+
+ul{
+    list-style-type: none;
+}
+.link-active{
+    background-color: #FF5722;
+    color:white;
+    font-size: .25em;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}

@@ -1,0 +1,42 @@
+.navSection{
+    background-color: #455A64;
+    color:white;
+    height:50px;
+    width:100%;
+}
+
+.navBody{
+    display:table;
+    padding:0px 15px 0px 15px;
+    width:100%;
+    height:100%;
+}
+
+.logo{
+    display:table-cell;
+    height: 100%;
+    vertical-align: middle;
+    font-size: 2em;
+}
+
+.navLinks{
+    display:table;
+    height:100%;
+    float:right;
+    vertical-align:middle;
+    font-size: 2em;
+}
+.active-link{
+    display:table-cell;
+    border-radius: 10px;
+    vertical-align: middle;
+    background-color: #FF5722;
+    height:100%;
+    padding:0px 10px 0px 10px;
+}
+.page-link{
+    display:table-cell;
+    vertical-align: middle;
+    padding:0px 10px 0px 10px;
+    height:100%;
+}
